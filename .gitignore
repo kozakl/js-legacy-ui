@@ -7,15 +7,6 @@ dist/
 # Testing
 coverage/
 
-# Mats
-mats/*
-
-# Public
-public/*
-!public/favicon.ico
-!public/manifest.json
-!public/index.html
-
 # Others
 .idea/
 TODO.txt
