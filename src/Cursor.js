@@ -2,14 +2,14 @@ class Cursor
 {
     static init(element)
     {
-        this.element = element;
+        Cursor.element = element;
     }
     
     static set(type)
     {
-        if (this.current !== type) {
-            this.current = type;
-            this.element.style.cursor = type;
+        if (Cursor.current !== type) {
+            Cursor.current = type;
+            Cursor.element.style.cursor = type;
         }
     }
 }
