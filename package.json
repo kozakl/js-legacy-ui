@@ -1,6 +1,6 @@
 {
   "name": "@kozakl/legacy-ui",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Luke Kozak",
     "email": "kozakluke@gmail.com",
@@ -9,6 +9,6 @@
   "scripts": {
     "prebuild": "rm -rf dist/ && mkdir dist/",
     "build": "cp package.json dist/ && cp -R src/* dist/",
-    "publish-dist": "yarn build && npm publish ./dist --access=public"
+    "publish-dist": "npm run build && npm publish ./dist --access=public"
   }
 }
